@@ -16,6 +16,9 @@ Installation
                                                                                                                                                                                                                                                         
 Usage
 ---
+### Straight to the point.
+`TTUINavigationBarAdjustableTint` is just a subclass of UINavigationBar, with a property called `colourAdjustFactor` which you can set. The lower the number (down to 0) the darker the tint applied to the tintColour. Use `TTUINavigationBarAdjustableTint` where you would normally use UINavigationBar, set the `tintColour`, and `colourAdjustFactor` properties, and you're done. If that makes sense to you, you can stop reading now and get back to making your app! Otherwise, read on... :-)
+
 ### If you are using Interface Builder
 * Find your UINavigationBar in interface builder (if you are also using a UINavigationBarController, you might need to use the Document Outline window to find it.
 
