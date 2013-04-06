@@ -85,10 +85,10 @@ First, create your UINavigationBarController. In my example, I'm going to do tha
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
-    //create a UINavigationController, with custom NavigationBar class
+    //THIS IS THE KEY BIT. Create a UINavigationController, with custom NavigationBar class by using the initWithNavigationBarClass (iOS 5+)
     UINavigationController *navigationController = [[UINavigationController alloc] initWithNavigationBarClass:[TTUINavigationBarAdjustableTint class] toolbarClass:nil];
     
-    //create an initial view to put inside the navigation controller.
+    //From here on is just stuff you would normally do with a regualr navigation controller. Create an initial view to put inside the navigation controller.
     UIViewController *firstViewController = [[MyExampleViewController alloc] init];
     [navigationController setViewControllers:[NSArray arrayWithObject:firstViewController]];
     
