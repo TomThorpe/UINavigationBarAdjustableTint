@@ -9,7 +9,8 @@ Installation
 ---
 * Include the files in the  `Source` directory somewhere in your project.
 * Add `#import TTUINavigationBarAdjustableTint.h` in your source wherever you plan to first instantiate - or edit the properties of - your UINavigationBar or UINavigationBarController.
-                                                                                                                                                                                                                                                        Usage
+                                                                                                                                                                                                                                                        
+Usage
 ---
 ### If you are using Interface Builder
 * Find your UINavigationBar in interface builder (if you are also using a UINavigationBarController, you might need to use the Document Outline window to find it.
@@ -30,7 +31,6 @@ self.navigationController.navigationBar.tintColor = [UIColor blueColor];
 ```
  
 * When you want to change the tint brightness, either access your instance of the TTUINavigationBarAdjustableTint via the `self.navigationController.navigatonBar` property (if your current view is inside the navigationController), or set up an outlet from Interface Builder to the TTUINavigationBarAdjustableTint, and adjust the `colourAdjustFactor` property (see the "Options" section below for instructions on what value to set it to).
-* 
 
 ### If you are using Code
 * If you normally just instaniate a UINavigationBar, simply instantiate a TTUINavigationBarAdjustableTint instead and use it in exactly the same way.
