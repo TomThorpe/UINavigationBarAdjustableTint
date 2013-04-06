@@ -12,9 +12,6 @@
 		9F6DD632170F93BD004410D5 /* TTUINavigationBarAdjustableTint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6DD631170F93BD004410D5 /* TTUINavigationBarAdjustableTint.m */; };
 		9F6DD653170F9AB7004410D5 /* TintDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6DD651170F9AB6004410D5 /* TintDemo.m */; };
 		9F6DD654170F9AB7004410D5 /* TintDemo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F6DD652170F9AB6004410D5 /* TintDemo.xib */; };
-		9F6DD660170FA064004410D5 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F6DD65D170FA064004410D5 /* readme.txt */; };
-		9F6DD661170FA064004410D5 /* wavegrid.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6DD65E170FA064004410D5 /* wavegrid.png */; };
-		9F6DD662170FA064004410D5 /* wavegrid_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6DD65F170FA064004410D5 /* wavegrid_@2X.png */; };
 		9F70248A16DBF6650003B5FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F70248916DBF6650003B5FA /* UIKit.framework */; };
 		9F70248C16DBF6650003B5FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F70248B16DBF6650003B5FA /* Foundation.framework */; };
 		9F70248E16DBF6650003B5FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F70248D16DBF6650003B5FA /* CoreGraphics.framework */; };
@@ -23,6 +20,9 @@
 		9F70249C16DBF6650003B5FA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F70249B16DBF6650003B5FA /* Default.png */; };
 		9F70249E16DBF6650003B5FA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F70249D16DBF6650003B5FA /* Default@2x.png */; };
 		9F7024A016DBF6650003B5FA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F70249F16DBF6650003B5FA /* Default-568h@2x.png */; };
+		9FB1B6FF170FADAC00EEFF46 /* diamond_upholstery.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB1B6F9170FADAC00EEFF46 /* diamond_upholstery.png */; };
+		9FB1B700170FADAC00EEFF46 /* diamond_upholstery_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB1B6FA170FADAC00EEFF46 /* diamond_upholstery_@2X.png */; };
+		9FB1B701170FADAC00EEFF46 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9FB1B6FB170FADAC00EEFF46 /* readme.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +34,6 @@
 		9F6DD650170F9AB6004410D5 /* TintDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TintDemo.h; sourceTree = "<group>"; };
 		9F6DD651170F9AB6004410D5 /* TintDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TintDemo.m; sourceTree = "<group>"; };
 		9F6DD652170F9AB6004410D5 /* TintDemo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TintDemo.xib; sourceTree = "<group>"; };
-		9F6DD65D170FA064004410D5 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
-		9F6DD65E170FA064004410D5 /* wavegrid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wavegrid.png; sourceTree = "<group>"; };
-		9F6DD65F170FA064004410D5 /* wavegrid_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wavegrid_@2X.png"; sourceTree = "<group>"; };
 		9F70248616DBF6650003B5FA /* UINavigationBarAdjustableTint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UINavigationBarAdjustableTint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F70248916DBF6650003B5FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9F70248B16DBF6650003B5FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -48,6 +45,9 @@
 		9F70249B16DBF6650003B5FA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Demo/Default.png; sourceTree = "<group>"; };
 		9F70249D16DBF6650003B5FA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Demo/Default@2x.png"; sourceTree = "<group>"; };
 		9F70249F16DBF6650003B5FA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Demo/Default-568h@2x.png"; sourceTree = "<group>"; };
+		9FB1B6F9170FADAC00EEFF46 /* diamond_upholstery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamond_upholstery.png; sourceTree = "<group>"; };
+		9FB1B6FA170FADAC00EEFF46 /* diamond_upholstery_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diamond_upholstery_@2X.png"; sourceTree = "<group>"; };
+		9FB1B6FB170FADAC00EEFF46 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,20 +67,10 @@
 		9F2035E9170648E600438E50 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				9F6DD65C170FA064004410D5 /* wavegrid */,
+				9FB1B6F8170FADAC00EEFF46 /* diamond_upholstery */,
 				9F2035EA170648E600438E50 /* about-tomthorpelogo.png */,
 			);
 			path = Images;
-			sourceTree = "<group>";
-		};
-		9F6DD65C170FA064004410D5 /* wavegrid */ = {
-			isa = PBXGroup;
-			children = (
-				9F6DD65D170FA064004410D5 /* readme.txt */,
-				9F6DD65E170FA064004410D5 /* wavegrid.png */,
-				9F6DD65F170FA064004410D5 /* wavegrid_@2X.png */,
-			);
-			path = wavegrid;
 			sourceTree = "<group>";
 		};
 		9F70247D16DBF6650003B5FA = {
@@ -157,6 +147,16 @@
 			path = Demo;
 			sourceTree = "<group>";
 		};
+		9FB1B6F8170FADAC00EEFF46 /* diamond_upholstery */ = {
+			isa = PBXGroup;
+			children = (
+				9FB1B6F9170FADAC00EEFF46 /* diamond_upholstery.png */,
+				9FB1B6FA170FADAC00EEFF46 /* diamond_upholstery_@2X.png */,
+				9FB1B6FB170FADAC00EEFF46 /* readme.txt */,
+			);
+			path = diamond_upholstery;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -215,9 +215,9 @@
 				9F7024A016DBF6650003B5FA /* Default-568h@2x.png in Resources */,
 				9F2035EB170648E600438E50 /* about-tomthorpelogo.png in Resources */,
 				9F6DD654170F9AB7004410D5 /* TintDemo.xib in Resources */,
-				9F6DD660170FA064004410D5 /* readme.txt in Resources */,
-				9F6DD661170FA064004410D5 /* wavegrid.png in Resources */,
-				9F6DD662170FA064004410D5 /* wavegrid_@2X.png in Resources */,
+				9FB1B6FF170FADAC00EEFF46 /* diamond_upholstery.png in Resources */,
+				9FB1B700170FADAC00EEFF46 /* diamond_upholstery_@2X.png in Resources */,
+				9FB1B701170FADAC00EEFF46 /* readme.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
