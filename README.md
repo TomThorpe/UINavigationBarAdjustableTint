@@ -73,6 +73,49 @@ E.g:
 * Anything above 1, the bottom of the gradient will be the tintColor, and the top will be brighter than the bottom relative to how high the number is.
 * Try adjusting the brightness slider on the include demo app to see the effect. On the slider, the left and side is 0 and the right hand side is 2. The middle is 1.
  
+Example Code
+--- 
+Here is an example of creating a simple UINavigationBarController that uses the TTUINavigationBarAdjustableTint, and sets a red tintColour with a darker tint.
+
+First, create your UINavigationBarController. In my example, I'm going to do that in the main App Delegate, and add it as the root view controller for my app:
+
+```  objc
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Override point for customization after application launch.
+    
+    //create a UINavigationController, with custom NavigationBar class
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithNavigationBarClass:[TTUINavigationBarAdjustableTint class] toolbarClass:nil];
+    
+    //create an initial view to put inside the navigation controller.
+    UIViewController *firstViewController = [[MyExampleViewController alloc] init];
+    [navigationController setViewControllers:[NSArray arrayWithObject:firstViewController]];
+    
+    //make the navigation controller the root controller of the app
+    self.window.rootViewController = navigationController;
+    [self.window makeKeyAndVisible];
+    return YES;
+}
+```
+
+Then, inside the `viewDidLoad` method of my `MyExampleViewController` view controller, I add the following:
+
+```  objc
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    //set the tint colour of the navigation bar as usual (setting it to a deep red here)
+    self.navigationController.navigationBar.tintColor = [UIColor colorWithRed:150/255.0f green:22/255.0f blue:18/255.0f alpha:1.0f];
+    
+    //cast the navigation bar to a TTUINavigationBarAdjustableTint and set the colourAdjustFactor property. lower = darker.
+    ((TTUINavigationBarAdjustableTint *)self.navigationController.navigationBar).colourAdjustFactor = 0.8; //0.8 = darker
+}
+```
+
+Done!
+ 
 Demo
 ---
 The included source is an XCode project which you can open to see a demo.
