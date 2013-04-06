@@ -1,11 +1,14 @@
 UINavigationBarAdjustableTint
 =============================
-A subclass of UINavigationBar that allows you to control the level of tint brightness that is applied to the tintColor
+A subclass of UINavigationBar that allows you to control the level of tint brightness that is applied to the tintColor. Here's some example screenshots of the demo app included in the source:
 
+##### Red tintColor with varying brightness:
 ![Screenshot](Screenshots/1.png)![Screenshot](Screenshots/2.png)![Screenshot](Screenshots/3.png)
 
+##### Grey tintColor with varying brightness:
 ![Screenshot](Screenshots/4.png)![Screenshot](Screenshots/5.png)
 
+##### Cyan tintColor with varying brightness:
 ![Screenshot](Screenshots/6.png)![Screenshot](Screenshots/7.png)
 
 
