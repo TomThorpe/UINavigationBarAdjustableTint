@@ -127,3 +127,7 @@ Then, an instance of the `TintDemo` ViewController is added to the Navigation Co
 The values of `tintColor` nd `colourAdjustFactor` are then adjusted using the sliders' `Value Changed` events.
 
 You can refer to these demos for reference of how to use the library if anything is unclear :-)
+
+Acknowledgement
+---
+Credit and thanks to coneybeare on stackoverflow at http://stackoverflow.com/questions/1852319/uinavigationbar-gradient-details for the original concept of how to draw the gradient
