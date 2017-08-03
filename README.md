@@ -1,3 +1,7 @@
+## Update - NO LONGER SUPPORTED.
+You'd be crazy to use this now! This is just kept here for the posterity but wont receive updates
+
+
 UINavigationBarAdjustableTint
 =============================
 A subclass of UINavigationBar that allows you to control the level of tint brightness that is applied to the tintColor. Here's some example screenshots of the demo app included in the source:
